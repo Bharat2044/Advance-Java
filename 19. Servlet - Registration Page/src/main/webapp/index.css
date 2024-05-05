@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Change background color to black */
+    color: #fff; /* Change text color to white */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+	font-size: 40px;
+    text-align: center;
+    color: #fff; /* Change heading text color to white */
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #333; /* Change card background color to dark gray */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Update shadow color */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ccc; /* Change label text color to light gray */
+    font-size: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 22px;
+    box-sizing: border-box;
+    border: 1px solid #555; /* Change border color to dark gray */
+    border-radius: 4px;
+    background-color: #444; /* Change input background color to a darker shade */
+    color: #fff; /* Change input text color to white */
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(0, 255, 0, 0.7);
+    color: ghostwhite;
+}

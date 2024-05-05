@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+                
+    
+    
+    <wb-module deploy-name="15. Servlet - Login Page by using HttpServlet">
+                                
+        
+        
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+                                
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+                                
+        
+        
+        <property name="context-root" value="05._Servlet_-_Login_Page_by_using_HttpServlet"/>
+                                
+        
+        
+        <property name="java-output-path" value="/15. Servlet - Login Page by using HttpServlet/build/classes"/>
+                            
+    
+    
+    </wb-module>
+            
+
+
+</project-modules>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>21. Servlet - Signin and Signup Page (init-param and config object)</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>SignIn</servlet-name>
+    <servlet-class>com.bharat.config.SignInServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SignIn</servlet-name>
+    <url-pattern>/signInServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>SignUp</servlet-name>
+    <servlet-class>com.bharat.config.SignUpServlet</servlet-class>
+    <init-param>
+      <param-name>driverClassName</param-name>
+      <param-value>com.mysql.cj.jdbc.Driver</param-value>
+    </init-param>
+    <init-param>
+      <param-name>dbUrl</param-name>
+      <param-value>jdbc:mysql://localhost:3306/jdbc_db</param-value>
+    </init-param>
+    <init-param>
+      <param-name>username</param-name>
+      <param-value>root</param-value>
+    </init-param>
+    <init-param>
+      <param-name>password</param-name>
+      <param-value>test</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SignUp</servlet-name>
+    <url-pattern>/signUpServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

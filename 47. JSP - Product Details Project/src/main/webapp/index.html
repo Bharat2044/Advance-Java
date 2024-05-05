@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        button {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 200px; /* Set your desired width */
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 20px;
+            overflow: hidden; /* Ensure the overflow is hidden for a clean transition effect */
+        }
+
+        img {
+            width: 100%; /* Make sure the image takes up the full width of its container */
+            height: 100%; /* Maintain aspect ratio */
+            border-radius: 8px; /* Optional: Add rounded corners to the images */
+            transition: transform 0.3s ease-in-out; /* Add a smooth transition effect on transform */
+        }
+
+        button:hover img {
+            transform: scale(1.1); /* Increase the scale on hover (adjust the value as needed) */
+        }
+
+        div {
+            font-size: 25px;
+            font-weight: 700;
+            color:purple;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="product.jsp">
+        <button type="submit" value="Iphone" name="phoneName">
+            <img src="https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-1.jpg" alt="iphone pic" title="Iphone" />
+            <div>Iphone</div>
+        </button>
+        
+        <button type="submit" value="Nokia" name="phoneName">
+            <img src="https://5.imimg.com/data5/PU/JL/MY-13202649/nokia-mobile.png" alt="nokia pic" title="Nokia" />
+            <div>Nokia</div>
+        </button>
+        
+        <button type="submit" value="Redmi" name="phoneName">
+            <img src="https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-10-1.jpg" alt="redmi pic" title="Redmi" />
+            <div>Redmi</div>
+        </button>
+        
+        <button type="submit" value="Samsung" name="phoneName">
+            <img src="https://www.91-img.com/gallery_images_uploads/6/8/68b93a9cc9de701f04223a44dc6d167fbcf085c2.jpg?tr=h-630,c-at_max,q-80" alt="samsung pic" title="Samsung" />
+            <div>Samsung</div>
+        </button>
+        
+        <button type="submit" value="Vivo" name="phoneName">
+            <img src="https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1695366734071/2f7b415e4bea5e893f1ee46b2a35c78a.png" alt="vivo pic" title="Vivo" />
+            <div>Vivo</div>
+        </button>
+        
+        <button type="submit" value="Realme" name="phoneName">
+            <img src="https://cdn1.smartprix.com/rx-iqDKgfAiw-w420-h420/realme-12-pro-5g.jpg" alt="realme pic" title="Realme" />
+            <div>Realme</div>
+        </button>
+        
+        <button type="submit" value="Poco" name="phoneName">
+            <img src="https://5.imimg.com/data5/SELLER/Default/2021/3/NT/GO/UZ/29090626/poco-m3-mobile-phone-500x500.jpg" alt="poco pic" title="Poco" />
+            <div>Poco</div>
+        </button>
+        
+        <button type="submit" value="Oppo" name="phoneName">
+            <img src="https://opsg-img-cdn-gl.heytapimg.com/epb/202306/20/O6CUSXf5Slkg0u6S.png?x-amz-process=image/format,webp/quality,Q_80" alt="oppo pic" title="Oppo" />
+            <div>Oppo</div>
+        </button>
+        
+        <button type="submit" value="Motorola" name="phoneName">
+            <img src="https://m.media-amazon.com/images/I/71Zdud3W7EL._AC_UF1000,1000_QL80_.jpg" alt="motorola pic" title="Motorola" />
+            <div>Motorola</div>
+        
+        <button type="submit" value="Xiaomi" name="phoneName">
+            <img src="https://i02.appmifile.com/240_operatorx_operatorx_opx/26/09/2023/ee07297cdf24071db7f6846d9c4727bb.png?thumb=1&w=500&q=85" alt="xiaomi pic" title="Xiaomi" />
+            <div>Xiaomi</div>
+        </button>
+    </form>
+
+</body>
+</html>

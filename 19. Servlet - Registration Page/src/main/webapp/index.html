@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration</title>
+<link rel="stylesheet" href="./index.css">
+</head>
+<body>
+	<h1>Register Here...</h1>
+	 
+	<form action="registrationServlet" method="POST"> 
+		<label for="firstName">First Name: </label>
+		<input type="text" id="firstName" name="firstName" placeholder="Bharat" />
+		
+		<label for="lastName">Last Name: </label>
+		<input type="text" id="lastName" name="lastName" placeholder="Kumar" />
+		
+		<label for="age">Age: </label>
+		<input type="number" id="age" name="age" min="1" max="100" placeholder="between 1 to 100" />
+		
+		<label for="emailId">Email: </label>
+		<input type="email" id="emailId" name="emailId" placeholder="abc@gmail.com" />
+		
+		<input type="submit" value="Register" />
+	</form>
+</body>
+</html>

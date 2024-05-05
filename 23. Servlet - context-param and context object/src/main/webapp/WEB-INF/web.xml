@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>23. Servlet - context-param and context object</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>one</servlet-name>
+    <servlet-class>com.bharat.context.Servlet1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>one</servlet-name>
+    <url-pattern>/servlet1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>two</servlet-name>
+    <servlet-class>com.bharat.context.Servlet2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>two</servlet-name>
+    <url-pattern>/servlet2</url-pattern>
+  </servlet-mapping>
+  <context-param>
+    <param-name>apiKey</param-name>
+    <param-value>abJixy2MxhdkaQed</param-value>
+  </context-param>
+</web-app>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+                
+    
+    
+    <wb-module deploy-name="09. Servlet - Servlet Creation by using extends GenericServlet Abstract Class">
+                                
+        
+        
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+                                
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+                                
+        
+        
+        <property name="context-root" value="02._Servlet_-_Servlet_Creation_by_using_extends_GenericServlet_Abstract_Class"/>
+                                
+        
+        
+        <property name="java-output-path" value="/09. Servlet - Servlet Creation by using extends GenericServlet Abstract Class/build/classes"/>
+                            
+    
+    
+    </wb-module>
+            
+
+
+</project-modules>
